@@ -1,1 +1,42 @@
-hello
+ <h1>Brooklyns To-do List</h1>
+    
+      <ol>
+        <li>
+          <input type="checkbox"/>
+          <span>attend CodeNow Workshop August 5th</span>
+        </li>
+        <li>
+          <input type="checkbox"/>
+         <span>go to school</span>
+       </li>
+      <li>
+        <input type="checkbox"/>
+        <span>have fun</span>
+      </li>
+      <li>
+        <input type="checkbox"/>
+        <span>go to basketball practice</span>
+      </li>
+      <li>
+      <input type="checkbox"/>
+      <span>take out trash</span>
+     </li>
+     </ol>
+    <input type="text" placeholder="To-do description...">
+    <input type="submit" value="Add to-do">
+    </body>
+    
+  </html>
+  <div id="new-todo-block">
+      <input class="text-input" id="new-todo-description" type="text" placeholder="Add a new todo...">
+      <input class="text-input" id="new-pomodoro-estimate" type="number" placeholder="Pomodoro estimate...">
+      <input class="button" id="add-new-todo-button" type="submit" value="Add todo">
+    </div>
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Workspace</title>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    </head>
